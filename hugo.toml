@@ -1,4 +1,4 @@
-baseURL = 'https://1ux.dev/''
+baseURL = 'https://1ux.dev/'
 languageCode = 'en-us'
 title = 'Leons Blog'
 theme = 'typo'
