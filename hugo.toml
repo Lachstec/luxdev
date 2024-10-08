@@ -1,3 +1,60 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://1ux.dev'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Leons Blog'
+theme = 'typo'
+
+[taxonomies]
+tags = 'tags'
+
+[params]
+# Meta Description
+description = "Ramblings about technical things"
+
+# Appearance Settings
+theme = 'auto'
+colorPalette = 'gruvebox'
+hideHeader = false
+
+# Index Page
+homeIntroTitle = 'Hi There, im Leon - '
+homeIntroContent = """
+and you have found my blog. You can find posts about various technical topics that im interested in 
+or working on. If you are interested in making contact, you can reach me at [hi@1ux.dev](mailto:hi@1ux.dev).
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social Links
+[[params.social]]
+name = "github"
+url = "https://github.com/lachstec"
+
+# Menu Items
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax Highlighting Settings
+[markup]
+[markup.highlight]
+style = 'algol'
+
+
